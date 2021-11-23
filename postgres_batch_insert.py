@@ -1,7 +1,7 @@
 import psycopg2 as psycopg, psycopg2.extras as p
 
-host = '10.128.0.4'
-password = 'cs327e!'
+host = '<your_ip>'
+password = '<your_password>'
 url = "dbname='postgres' user='postgres' host={} port=5432 password={}".format(host, password)
 
 conn = psycopg.connect(url)
